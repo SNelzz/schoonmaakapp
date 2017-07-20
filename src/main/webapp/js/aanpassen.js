@@ -60,6 +60,7 @@ $(document).ready(function() {
 					 //melding geven
 					 document.getElementById("p4").style.display = "block";
 					 document.getElementById("p4").innerHTML = d;
+					 window.location.assign("aanpaslijst.html");
 				 },
             
 				 error: function(jqXHR, textStatus, errorThrown){

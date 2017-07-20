@@ -9,10 +9,10 @@ import java.time.*;
 import nl.hu.ipass.schoonmaakapp.entity.Schoonmaaktaak;
 
 public class SchoonmaaktaakDAO {
-	private static final String DB_DRIV = "org.postgresql.Driver";
-	private static final String DB_URL = "jdbc:postgresql://ec2-54-247-166-129.eu-west-1.compute.amazonaws.com:5432/d40ef96pei9a4t?sslmode=require";
-	private static final String DB_USER = "dfanurbfauupnh";
-	private static final String DB_PASS = "7c9ba1f0d4a7bf482de582453ed9d9f0db1c51c9d9283e99f627fd9da6cd42cb";
+	private static final String DB_DRIV = "com.mysql.jdbc.Driver";
+	private static final String DB_URL = "jdbc:mysql://localhost:3306/schoonmaakapp";
+	private static final String DB_USER = "Niels";
+	private static final String DB_PASS = "IPASS2017ND";
 	private static Connection conn;
 
 	// alle schoonmaaktaken van een gebruiker vinden op basis van gebruikersnaam
