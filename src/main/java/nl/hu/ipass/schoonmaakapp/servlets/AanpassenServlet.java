@@ -84,7 +84,7 @@ public class AanpassenServlet extends HttpServlet {
 			if (schoonmaaktaakDAO.update(aanpassen, gebruikersnaam)) {
 				PrintWriter out = resp.getWriter();
 				resp.setContentType("text/html");
-				out.println("Opslaan voltooid");
+				out.println("1");
 			} else {
 				PrintWriter out = resp.getWriter();
 				resp.setContentType("text/html");

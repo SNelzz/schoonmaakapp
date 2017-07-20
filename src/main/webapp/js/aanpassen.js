@@ -57,10 +57,14 @@ $(document).ready(function() {
 				 dataType: "text",
             
 				 success: function(d) {
-					 //melding geven
-					 document.getElementById("p4").style.display = "block";
-					 document.getElementById("p4").innerHTML = d;
-					 window.location.assign("aanpaslijst.html");
+					 if(d == 1){
+						 window.sessionStorage.removeItem("taakNr");
+						 window.location.assign("aanpaslijst.html");
+	            		 
+	            	 } else {
+	            		 document.getElementById("p4").style.display = "block";
+	                	 document.getElementById("p4").innerHTML = d;
+	            	 }
 				 },
             
 				 error: function(jqXHR, textStatus, errorThrown){
