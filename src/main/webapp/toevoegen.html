@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Taak Toevoegen</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="toevoegen-page">
+		<div class="toevoegen">
+			<form id="toevoegen-form" class="toevoegen-form">
+				<p id="p3"></p>
+				<label for="taaknaam">Taaknaam: </label>
+				<input type="text" id="taaknaam" name="taaknaam"/>
+				<label for="tijdspanne1">Tijd tussen uitvoeren: </label>
+				<input class="klein" type="number" id="tijdspanne1" name="tijdspanne1"/> 
+				<select name="tijdspanne2" id="tijdspanne2">
+					<option value="">Kies eenheid..</option>
+					<option value="dagen">Dagen</option>
+					<option value="weken">Weken</option>
+					<option value="maanden">Maanden</option>
+				</select>
+				<label for="tijd1">Tijdsduur van de taak: </label>
+				<input class="klein" type="number" id="tijd1" name="tijd1"/> 
+				<select name="tijd2" id="tijd2">
+					<option value="">Kies eenheid..</option>
+					<option value="minuten">Minuten</option>
+					<option value="uren">Uren</option>
+				</select>
+				<label for="datum">Datum van de laatste uitvoering: </label>
+				<input type="Date" id="datum" name="datum"/>
+				<label for="gebouwnaam">Naam van het gebouw/huis: </label>
+				<input type="text" id="gebouwnaam" name="gebouwnaam"/>
+				<input class="button" type="button" value="Taak Opslaan" id="taakButton"/>
+				<input class="anulbutton" type="button" value="Annuleren" id="anulButton"/>
+			</form>
+		</div>
+	</div>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+	<script src="js/toevoegen.js"></script>
+
+</body>
+</html>

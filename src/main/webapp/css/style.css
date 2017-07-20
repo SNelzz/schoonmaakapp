@@ -1,0 +1,203 @@
+.login-page, .menu-page {
+	width: 360px;
+	padding: 8% 0 0;
+	margin: auto;
+}
+
+.toevoegen-page, .aanpassen-page {
+	width: 90%;
+	padding: 8% 0 0;
+	margin: auto;
+}
+
+.aanpassenlijst-page {
+	width: 60%;
+	padding: 8% 0 0;
+	margin: auto;
+}
+
+.schema-page {
+	width: 75%;
+	padding: 8% 0 0;
+	margin: auto;
+}
+
+.aanpassenlijst {
+	position: relative;
+	background: #FFFFFF;
+	max-width: 60%;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0px 5px 15px 0 #888888;
+}
+
+.schema {
+	position: relative;
+	background: #FFFFFF;
+	max-width: 75%;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0px 5px 15px 0 #888888;
+}
+
+.toevoegen, .aanpassen {
+	position: relative;
+	background: #FFFFFF;
+	max-width: 90%;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0px 5px 15px 0 #888888;
+}
+
+.toevoegen-form, .aanpassen-form {
+	display: grid;
+	grid-template-colums: 150px 2fr;
+	grid-gap: 15px;
+}
+
+.form, .menu {
+	position: relative;
+	background: #FFFFFF;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0px 5px 15px 0 #888888;
+}
+
+.form input {
+	font-family: Arial, sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.toevoegen-form label, .aanpassen-form label {
+	font-family: Arial, sans-serif;
+	text-align: right;
+	grid-column: 1/2;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 14px;
+}
+
+.toevoegen-form input, .aanpassen-form input {
+	font-family: Arial, sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	grid-column: 2/4;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 14px;
+}
+
+.toevoegen-form .klein, .aanpassen-form .klein {
+	font-family: Arial, sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	grid-column: 2/3;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 14px;
+}
+
+.toevoegen-form select, .aanpassen-form select {
+	font-family: Arial, sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	grid-column: 3/4;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 14px;
+}
+
+.toevoegen-form .button, .aanpassen-form .button{
+	font-family: Arial, sans-serif;
+	background: #acdae7;
+	grid-column: 2/3;
+	border: 0;
+	padding: 15px;
+	color: #000000;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.toevoegen-form .anulbutton, .aanpassen-form .anulbutton {
+	font-family: Arial, sans-serif;
+	background: #acdae7;
+	grid-column: 3/4;
+	border: 0;
+	padding: 15px;
+	color: #000000;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.menu a, .menu .button, .aanpassenlijst  .button, .schema .button {
+	display: block;
+	font-family: Arial, sans-serif;
+	background: #acdae7;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	margin-bottom: 5px;
+	color: #000000;
+	font-size: 14px;
+	box-sizing: border-box;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.form .button {
+	display: block;
+	font-family: Arial, sans-serif;
+	background: #acdae7;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #000000;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.form .button:hover, .menu a:hover, .menu .button:hover, .toevoegen-form .button:hover,
+	.toevoegen-form .anulbutton:hover, .aanpassenlijst .button:hover,
+	.aanpassen-form .button:hover, .aanpassen-form .anulbutton:hover,
+	.schema .button:hover {
+	background: #b5e0ec;
+}
+
+.form .mess {
+	margin: 15px 0 0;
+	color: #000000;
+	font-size: 12px;
+}
+
+.form .mess a {
+	color: #acdae7;
+	text-decoration: none;
+}
+
+.form .register-form {
+	display: none;
+}
+
+.form #p1 #p2, .toevoegen-form #p3, .aanpassen-form #p4 {
+	display: none;
+}
+
+body {
+	background: #acdae7;
+	font-family: Arial, sans-serif;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LoginRegister</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="login-page">
+		<div class="form">
+			<form id="register-form" class="register-form">
+				<p id="p2"></p>
+				<input type="text" name="voornaam" placeholder="Voornaam" /> 
+				<input type="text" name="tussenvoegsel" placeholder="Tussenvoegsel" /> 
+				<input type="text" name="achternaam" placeholder="Achternaam" /> 
+				<input type="text" name="gebruikersnaam1" placeholder="Gebruikersnaam" /> 
+				<input type="password" name="wachtwoord1" placeholder="Wachtwoord" />
+				<input class="button" type="button" value="Registreren" id="regButton" />
+				<p class="mess"> Al geregistreerd? <a href="#">Inloggen</a>
+				</p>
+			</form>
+			<form id="login-form" class="login-form">
+				<p id="p1"></p>
+				<input type="text" name="gebruikersnaam" id="gebruikersnaam" placeholder="Gebruikersnaam" /> 
+				<input type="password" name="wachtwoord" placeholder="Wachtwoord" />
+				<input class="button" type="button" value="Inloggen" id="loginButton"/>
+				<p class="mess">Niet geregistreerd? <a href="#">Account aanmaken</a>
+				</p>
+			</form>
+		</div>
+	</div>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+	<script src="js/index.js"></script>
+
+</body>
+</html>
